@@ -16,7 +16,7 @@ header{
 	display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .nav a {
@@ -100,31 +100,103 @@ button{
 
 }
 
-.img-top {
+.img {
   float: right;
-  margin-left: 100px;
+  
   padding-top: 50px;
 }
 
 .copyright{
-  margin-left: 400px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 
 
-@media(max-width: 800px){
+@media (max-width: 800px){
 .headerBox {
 display: flex;
 align-items: center;
 flex-direction: column;
-}
-.nav{
-  width:90%
 }
 .headerLogo{
   order: -1;
   display: flex;
   justify-content: center;
 }
+.box1{
+  display: flex;
+  justify-content: center;
+  }
+
+.top-content{
 }
 
+.img {
+  display: none;
+
+}
+.innovationLogo{
+
+ 
+}
+}
+
+
+@media(max-width: 500px){
+  .nav  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+  }
+
+.headerBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  }
+  .headerLogo{
+    order: -1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav a{
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding: 20px 0px;
+  }
+  .box1{
+    display: flex;
+    justify-content: center;
+    }
+
+    .features h2 {
+    font-size: 20px;
+    }
+
+    .about h2 {
+    font-size: 20px;
+    }
+
+    .middle-img{
+      padding: 40px 20px 40px 20;
+      width: 100%;
+    }
+    .middle-content-p{
+      display: flex; 
+      flex-direction: column;
+      justify-content: column;
+      align-content: flex-start;
+    }
+    .bottom-content-p{
+      display: flex; 
+      flex-direction: column;
+      justify-content: column;
+      align-content: flex-start;
+    }
+  }
+ 
