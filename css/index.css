@@ -9,6 +9,7 @@ body{
 header{
   display: flex;
   align-items: baseline;
+  border: 1px solid black;
 }
 
 .nav {
@@ -17,10 +18,16 @@ header{
   justify-content: space-between;
   align-items: center;
   width: 80%;
+  border: 3px solid dodgerblue;
+}
+
+a{
+  border: 2px solid green;
+  text-decoration: none; 
 }
 
 .nav a {
-  width: 30px;
+  width: 100%;
 }
 .box1 {
  display: flex;
@@ -149,7 +156,7 @@ flex-direction: column;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100px;
+    width: 100%;
   }
 
 .headerBox {
@@ -168,6 +175,7 @@ flex-direction: column;
     border-bottom: 1px solid black;
     margin: 0px;
     padding: 20px 0px;
+    text-align: center;
   }
   .box1{
     display: flex;
